@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E98F89927E6034200FC8B70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98F89827E6034200FC8B70 /* AppDelegate.swift */; };
+		9E98F89B27E6034200FC8B70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98F89A27E6034200FC8B70 /* SceneDelegate.swift */; };
+		9E98F89D27E6034200FC8B70 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98F89C27E6034200FC8B70 /* HomeViewController.swift */; };
+		9E98F8A027E6034200FC8B70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E98F89E27E6034200FC8B70 /* Main.storyboard */; };
+		9E98F8A327E6034300FC8B70 /* desafioAPI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9E98F8A127E6034300FC8B70 /* desafioAPI.xcdatamodeld */; };
+		9E98F8A527E6034700FC8B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E98F8A427E6034700FC8B70 /* Assets.xcassets */; };
+		9E98F8A827E6034700FC8B70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E98F8A627E6034700FC8B70 /* LaunchScreen.storyboard */; };
+		9E98F8B327E6067600FC8B70 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98F8B127E6067600FC8B70 /* SongTableViewCell.swift */; };
+		9E98F8B427E6067600FC8B70 /* MusicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E98F8B227E6067600FC8B70 /* MusicTableViewCell.xib */; };
+		9E98F8B727E60BCA00FC8B70 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98F8B627E60BCA00FC8B70 /* Song.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9E98F89527E6034200FC8B70 /* desafioAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desafioAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E98F89827E6034200FC8B70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E98F89A27E6034200FC8B70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9E98F89C27E6034200FC8B70 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9E98F89F27E6034200FC8B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E98F8A227E6034300FC8B70 /* desafioAPI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = desafioAPI.xcdatamodel; sourceTree = "<group>"; };
+		9E98F8A427E6034700FC8B70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E98F8A727E6034700FC8B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E98F8A927E6034700FC8B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E98F8B127E6067600FC8B70 /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
+		9E98F8B227E6067600FC8B70 /* MusicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicTableViewCell.xib; sourceTree = "<group>"; };
+		9E98F8B627E60BCA00FC8B70 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E98F89227E6034200FC8B70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E98F88C27E6034200FC8B70 = {
+			isa = PBXGroup;
+			children = (
+				9E98F89727E6034200FC8B70 /* desafioAPI */,
+				9E98F89627E6034200FC8B70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E98F89627E6034200FC8B70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E98F89527E6034200FC8B70 /* desafioAPI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E98F89727E6034200FC8B70 /* desafioAPI */ = {
+			isa = PBXGroup;
+			children = (
+				9E98F8B527E60BB400FC8B70 /* Models */,
+				9E98F8AF27E6064000FC8B70 /* HomeView */,
+				9E98F89827E6034200FC8B70 /* AppDelegate.swift */,
+				9E98F89A27E6034200FC8B70 /* SceneDelegate.swift */,
+				9E98F89E27E6034200FC8B70 /* Main.storyboard */,
+				9E98F8A427E6034700FC8B70 /* Assets.xcassets */,
+				9E98F8A627E6034700FC8B70 /* LaunchScreen.storyboard */,
+				9E98F8A927E6034700FC8B70 /* Info.plist */,
+				9E98F8A127E6034300FC8B70 /* desafioAPI.xcdatamodeld */,
+			);
+			path = desafioAPI;
+			sourceTree = "<group>";
+		};
+		9E98F8AF27E6064000FC8B70 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				9E98F8B027E6064800FC8B70 /* Cells */,
+				9E98F89C27E6034200FC8B70 /* HomeViewController.swift */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		9E98F8B027E6064800FC8B70 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9E98F8B127E6067600FC8B70 /* SongTableViewCell.swift */,
+				9E98F8B227E6067600FC8B70 /* MusicTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9E98F8B527E60BB400FC8B70 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9E98F8B627E60BCA00FC8B70 /* Song.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E98F89427E6034200FC8B70 /* desafioAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E98F8AC27E6034700FC8B70 /* Build configuration list for PBXNativeTarget "desafioAPI" */;
+			buildPhases = (
+				9E98F89127E6034200FC8B70 /* Sources */,
+				9E98F89227E6034200FC8B70 /* Frameworks */,
+				9E98F89327E6034200FC8B70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = desafioAPI;
+			productName = desafioAPI;
+			productReference = 9E98F89527E6034200FC8B70 /* desafioAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E98F88D27E6034200FC8B70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					9E98F89427E6034200FC8B70 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 9E98F89027E6034200FC8B70 /* Build configuration list for PBXProject "desafioAPI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E98F88C27E6034200FC8B70;
+			productRefGroup = 9E98F89627E6034200FC8B70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E98F89427E6034200FC8B70 /* desafioAPI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E98F89327E6034200FC8B70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E98F8A827E6034700FC8B70 /* LaunchScreen.storyboard in Resources */,
+				9E98F8B427E6067600FC8B70 /* MusicTableViewCell.xib in Resources */,
+				9E98F8A527E6034700FC8B70 /* Assets.xcassets in Resources */,
+				9E98F8A027E6034200FC8B70 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E98F89127E6034200FC8B70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E98F8B327E6067600FC8B70 /* SongTableViewCell.swift in Sources */,
+				9E98F8A327E6034300FC8B70 /* desafioAPI.xcdatamodeld in Sources */,
+				9E98F89D27E6034200FC8B70 /* HomeViewController.swift in Sources */,
+				9E98F89927E6034200FC8B70 /* AppDelegate.swift in Sources */,
+				9E98F89B27E6034200FC8B70 /* SceneDelegate.swift in Sources */,
+				9E98F8B727E60BCA00FC8B70 /* Song.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9E98F89E27E6034200FC8B70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E98F89F27E6034200FC8B70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E98F8A627E6034700FC8B70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E98F8A727E6034700FC8B70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E98F8AA27E6034700FC8B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E98F8AB27E6034700FC8B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E98F8AD27E6034700FC8B70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N9DGLJU24L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = desafioAPI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.rogeriotavares.godev.desafioAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9E98F8AE27E6034700FC8B70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N9DGLJU24L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = desafioAPI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.rogeriotavares.godev.desafioAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E98F89027E6034200FC8B70 /* Build configuration list for PBXProject "desafioAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E98F8AA27E6034700FC8B70 /* Debug */,
+				9E98F8AB27E6034700FC8B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E98F8AC27E6034700FC8B70 /* Build configuration list for PBXNativeTarget "desafioAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E98F8AD27E6034700FC8B70 /* Debug */,
+				9E98F8AE27E6034700FC8B70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9E98F8A127E6034300FC8B70 /* desafioAPI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9E98F8A227E6034300FC8B70 /* desafioAPI.xcdatamodel */,
+			);
+			currentVersion = 9E98F8A227E6034300FC8B70 /* desafioAPI.xcdatamodel */;
+			path = desafioAPI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9E98F88D27E6034200FC8B70 /* Project object */;
+}
