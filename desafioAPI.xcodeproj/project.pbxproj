@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B838D4827E610CA006BBB25 /* FetchSongsProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B838D4727E610CA006BBB25 /* FetchSongsProtocol.swift */; };
+		4B838D4A27E61116006BBB25 /* FetchSongsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B838D4927E61116006BBB25 /* FetchSongsService.swift */; };
+		4B838D4D27E6159E006BBB25 /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B838D4C27E6159E006BBB25 /* UIImageView+Extensions.swift */; };
+		4B838D5027E62184006BBB25 /* SongDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B838D4F27E62184006BBB25 /* SongDetailsViewController.swift */; };
+		4B838D5427E626C6006BBB25 /* TitleDescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B838D5227E626C6006BBB25 /* TitleDescriptionTableViewCell.swift */; };
+		4B838D5527E626C6006BBB25 /* TitleDescriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B838D5327E626C6006BBB25 /* TitleDescriptionTableViewCell.xib */; };
+		4B838D5727E62860006BBB25 /* SongDetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B838D5627E62860006BBB25 /* SongDetailRow.swift */; };
 		9E98F89927E6034200FC8B70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98F89827E6034200FC8B70 /* AppDelegate.swift */; };
 		9E98F89B27E6034200FC8B70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98F89A27E6034200FC8B70 /* SceneDelegate.swift */; };
 		9E98F89D27E6034200FC8B70 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98F89C27E6034200FC8B70 /* HomeViewController.swift */; };
@@ -15,11 +22,18 @@
 		9E98F8A527E6034700FC8B70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E98F8A427E6034700FC8B70 /* Assets.xcassets */; };
 		9E98F8A827E6034700FC8B70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E98F8A627E6034700FC8B70 /* LaunchScreen.storyboard */; };
 		9E98F8B327E6067600FC8B70 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98F8B127E6067600FC8B70 /* SongTableViewCell.swift */; };
-		9E98F8B427E6067600FC8B70 /* MusicTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E98F8B227E6067600FC8B70 /* MusicTableViewCell.xib */; };
+		9E98F8B427E6067600FC8B70 /* SongTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E98F8B227E6067600FC8B70 /* SongTableViewCell.xib */; };
 		9E98F8B727E60BCA00FC8B70 /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E98F8B627E60BCA00FC8B70 /* Song.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B838D4727E610CA006BBB25 /* FetchSongsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchSongsProtocol.swift; sourceTree = "<group>"; };
+		4B838D4927E61116006BBB25 /* FetchSongsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchSongsService.swift; sourceTree = "<group>"; };
+		4B838D4C27E6159E006BBB25 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
+		4B838D4F27E62184006BBB25 /* SongDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailsViewController.swift; sourceTree = "<group>"; };
+		4B838D5227E626C6006BBB25 /* TitleDescriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleDescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		4B838D5327E626C6006BBB25 /* TitleDescriptionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TitleDescriptionTableViewCell.xib; sourceTree = "<group>"; };
+		4B838D5627E62860006BBB25 /* SongDetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongDetailRow.swift; sourceTree = "<group>"; };
 		9E98F89527E6034200FC8B70 /* desafioAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desafioAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E98F89827E6034200FC8B70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E98F89A27E6034200FC8B70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,7 +44,7 @@
 		9E98F8A727E6034700FC8B70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9E98F8A927E6034700FC8B70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9E98F8B127E6067600FC8B70 /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongTableViewCell.swift; sourceTree = "<group>"; };
-		9E98F8B227E6067600FC8B70 /* MusicTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MusicTableViewCell.xib; sourceTree = "<group>"; };
+		9E98F8B227E6067600FC8B70 /* SongTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SongTableViewCell.xib; sourceTree = "<group>"; };
 		9E98F8B627E60BCA00FC8B70 /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -45,6 +59,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B838D4527E61093006BBB25 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				4B838D4927E61116006BBB25 /* FetchSongsService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		4B838D4627E610A2006BBB25 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				4B838D4727E610CA006BBB25 /* FetchSongsProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		4B838D4B27E61589006BBB25 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4B838D4C27E6159E006BBB25 /* UIImageView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4B838D4E27E62174006BBB25 /* SongDetails */ = {
+			isa = PBXGroup;
+			children = (
+				4B838D5127E626B1006BBB25 /* Cells */,
+				4B838D4F27E62184006BBB25 /* SongDetailsViewController.swift */,
+			);
+			path = SongDetails;
+			sourceTree = "<group>";
+		};
+		4B838D5127E626B1006BBB25 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4B838D5227E626C6006BBB25 /* TitleDescriptionTableViewCell.swift */,
+				4B838D5327E626C6006BBB25 /* TitleDescriptionTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		9E98F88C27E6034200FC8B70 = {
 			isa = PBXGroup;
 			children = (
@@ -64,8 +120,12 @@
 		9E98F89727E6034200FC8B70 /* desafioAPI */ = {
 			isa = PBXGroup;
 			children = (
+				4B838D4B27E61589006BBB25 /* Extensions */,
+				4B838D4627E610A2006BBB25 /* Protocols */,
+				4B838D4527E61093006BBB25 /* Services */,
 				9E98F8B527E60BB400FC8B70 /* Models */,
 				9E98F8AF27E6064000FC8B70 /* HomeView */,
+				4B838D4E27E62174006BBB25 /* SongDetails */,
 				9E98F89827E6034200FC8B70 /* AppDelegate.swift */,
 				9E98F89A27E6034200FC8B70 /* SceneDelegate.swift */,
 				9E98F89E27E6034200FC8B70 /* Main.storyboard */,
@@ -90,7 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				9E98F8B127E6067600FC8B70 /* SongTableViewCell.swift */,
-				9E98F8B227E6067600FC8B70 /* MusicTableViewCell.xib */,
+				9E98F8B227E6067600FC8B70 /* SongTableViewCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -99,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				9E98F8B627E60BCA00FC8B70 /* Song.swift */,
+				4B838D5627E62860006BBB25 /* SongDetailRow.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -162,8 +223,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E98F8A827E6034700FC8B70 /* LaunchScreen.storyboard in Resources */,
-				9E98F8B427E6067600FC8B70 /* MusicTableViewCell.xib in Resources */,
+				9E98F8B427E6067600FC8B70 /* SongTableViewCell.xib in Resources */,
 				9E98F8A527E6034700FC8B70 /* Assets.xcassets in Resources */,
+				4B838D5527E626C6006BBB25 /* TitleDescriptionTableViewCell.xib in Resources */,
 				9E98F8A027E6034200FC8B70 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,9 +240,15 @@
 				9E98F8B327E6067600FC8B70 /* SongTableViewCell.swift in Sources */,
 				9E98F8A327E6034300FC8B70 /* desafioAPI.xcdatamodeld in Sources */,
 				9E98F89D27E6034200FC8B70 /* HomeViewController.swift in Sources */,
+				4B838D4D27E6159E006BBB25 /* UIImageView+Extensions.swift in Sources */,
+				4B838D4827E610CA006BBB25 /* FetchSongsProtocol.swift in Sources */,
 				9E98F89927E6034200FC8B70 /* AppDelegate.swift in Sources */,
+				4B838D5027E62184006BBB25 /* SongDetailsViewController.swift in Sources */,
 				9E98F89B27E6034200FC8B70 /* SceneDelegate.swift in Sources */,
+				4B838D5727E62860006BBB25 /* SongDetailRow.swift in Sources */,
 				9E98F8B727E60BCA00FC8B70 /* Song.swift in Sources */,
+				4B838D4A27E61116006BBB25 /* FetchSongsService.swift in Sources */,
+				4B838D5427E626C6006BBB25 /* TitleDescriptionTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +395,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N9DGLJU24L;
+				DEVELOPMENT_TEAM = 7JU93RU6J9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = desafioAPI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -336,6 +404,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,7 +425,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = N9DGLJU24L;
+				DEVELOPMENT_TEAM = 7JU93RU6J9;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = desafioAPI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -365,6 +434,7 @@
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -7,32 +7,48 @@
 
 import Foundation
 
+struct SongResponse: Codable {
+    let resultCount: Int
+    let results: [Song]
+}
+
+enum TrackExplicitness: String, Codable {
+    case cleaned = "cleaned"
+    case explicit = "explicit"
+}
+
 struct Song: Codable {
-    let wrapperType, kind: String
-    let artistID, collectionID, trackID: Int
-    let artistName, collectionName, trackName, collectionCensoredName: String
-    let trackCensoredName: String
-    let artistViewURL, collectionViewURL, trackViewURL: String
-    let previewURL: String
-    let artworkUrl30, artworkUrl60, artworkUrl100: String
-    let collectionPrice, trackPrice: Double
-    let releaseDate: Date
-    let collectionExplicitness, trackExplicitness: String
-    let discCount, discNumber, trackCount, trackNumber: Int
+    let artistId: Int
+    let artistName: String
+    let artistViewUrl: String
+    let collectionName: String
+    let trackName: String
+    let artwork: String
+    let trackPrice: Double
+    let releaseDate: String
     let trackTimeMillis: Int
-    let country, currency, primaryGenreName, contentAdvisoryRating: String
-    let isStreamable: Bool
+    let currency: String
+    let primaryGenreName: String
+    let trackExplicitness: TrackExplicitness
+    
+    var minutesAndSeconds: String {
+        let minutes = trackTimeMillis / 60000
+        let seconds = (trackTimeMillis - (minutes * 60000)) / 1000
+        return "\(minutes)m \(seconds)s"
+    }
 
     enum CodingKeys: String, CodingKey {
-        case wrapperType, kind
-        case artistID = "artistId"
-        case collectionID = "collectionId"
-        case trackID = "trackId"
-        case artistName, collectionName, trackName, collectionCensoredName, trackCensoredName
-        case artistViewURL = "artistViewUrl"
-        case collectionViewURL = "collectionViewUrl"
-        case trackViewURL = "trackViewUrl"
-        case previewURL = "previewUrl"
-        case artworkUrl30, artworkUrl60, artworkUrl100, collectionPrice, trackPrice, releaseDate, collectionExplicitness, trackExplicitness, discCount, discNumber, trackCount, trackNumber, trackTimeMillis, country, currency, primaryGenreName, contentAdvisoryRating, isStreamable
+        case artistId
+        case artistName
+        case artistViewUrl
+        case collectionName
+        case trackName
+        case artwork = "artworkUrl100"
+        case trackPrice
+        case releaseDate
+        case trackTimeMillis
+        case currency
+        case primaryGenreName
+        case trackExplicitness
     }
 }
