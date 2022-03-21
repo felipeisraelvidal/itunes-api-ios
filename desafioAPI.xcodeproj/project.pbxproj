@@ -27,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4B5B7CBD27E8E5D2009CF38D /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4B838D4727E610CA006BBB25 /* FetchSongsProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchSongsProtocol.swift; sourceTree = "<group>"; };
 		4B838D4927E61116006BBB25 /* FetchSongsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchSongsService.swift; sourceTree = "<group>"; };
 		4B838D4C27E6159E006BBB25 /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
@@ -104,6 +105,7 @@
 		9E98F88C27E6034200FC8B70 = {
 			isa = PBXGroup;
 			children = (
+				4B5B7CBD27E8E5D2009CF38D /* README.md */,
 				9E98F89727E6034200FC8B70 /* desafioAPI */,
 				9E98F89627E6034200FC8B70 /* Products */,
 			);
